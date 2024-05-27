@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Header from '../../components/Admin/Header/Header';
 import Sidebar from '../../components/Admin/Sidebar/Sidebar';
 import PageContent from '../../components/Admin/PageContent/PageContent';
 
-type Props = {}
 
-const Dashboard = (props: Props) => {
+const Dashboard = () => {
     const [openSidebarToggle, setOpenSidebarToggle] = useState(false);
     const openSidebar = () => {
         setOpenSidebarToggle(!openSidebarToggle);

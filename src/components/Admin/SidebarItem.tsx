@@ -1,5 +1,4 @@
 import { IconType } from 'react-icons';
-import { LuLayoutDashboard } from 'react-icons/lu';
 import { Link } from 'react-router-dom';
 
 type Props = {

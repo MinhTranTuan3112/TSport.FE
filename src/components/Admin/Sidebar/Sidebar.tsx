@@ -1,9 +1,8 @@
 import { LuUserCog } from 'react-icons/lu';
-import { Link, NavLink } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import { FaRegUserCircle } from 'react-icons/fa';
 import styles from './Sidebar.module.css';
 import { ImStatsDots } from 'react-icons/im';
-import { BsCart3 } from 'react-icons/bs';
 type Props = {
     openSidebarToggle: boolean;
     setOpenSidebarToggle: (value: boolean) => void;

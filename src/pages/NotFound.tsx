@@ -1,6 +1,5 @@
-type Props = {}
 
-const NotFoundPage = (props: Props) => {
+const NotFoundPage = () => {
     return (
         <div className='text-red-600 font-bold'>Not Found</div>
     );

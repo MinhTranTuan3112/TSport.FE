@@ -1,4 +1,3 @@
-import React from 'react'
 import { BsFillBellFill, BsFillEnvelopeFill, BsJustify, BsPersonCircle, BsSearch } from 'react-icons/bs';
 import styles from './Header.module.css';
 type Props = {

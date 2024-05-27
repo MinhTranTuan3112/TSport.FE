@@ -2,9 +2,7 @@ import { useState } from "react";
 import Header from "../../components/Admin/Header/Header";
 import Sidebar from "../../components/Admin/Sidebar/Sidebar";
 
-type Props = {}
-
-const Users = (props: Props) => {
+const Users = () => {
     const [openSidebarToggle, setOpenSidebarToggle] = useState(false);
     const openSidebar = () => {
         setOpenSidebarToggle(!openSidebarToggle);

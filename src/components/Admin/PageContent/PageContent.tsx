@@ -2,9 +2,8 @@ import { TbShirtSport } from "react-icons/tb";
 import styles from './PageContent.module.css';
 import { LineChart } from "@mui/x-charts";
 import { FaRegUser } from "react-icons/fa";
-type Props = {}
 
-const PageContent = (props: Props) => {
+const PageContent = () => {
     return (
         <>
             <div className={styles.main_container}>

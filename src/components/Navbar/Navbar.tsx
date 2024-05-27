@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import appLogo from '../../assets/icons/app_logo.svg';
 import { Link } from 'react-router-dom';
-type Props = {}
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
